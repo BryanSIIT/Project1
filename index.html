@@ -23,18 +23,18 @@
 	      <ol>
 	        <li id="in-email">
 		      <label for="email">Email</label>
-		      <input type="email" name="email" id="email" autocomplete="on" placeholder="email@mail.domain" pattern="[a-z0-9._%+\-]+@[a-z0-9.\-]+\.[a-z]{2,}$"/>
+		      <input type="email" name="email" id="email" autocomplete="on" placeholder="email@mail.domain" pattern="[a-z0-9._%+\-]+@[a-z0-9.\-]+\.[a-z]{2,}$" required />
 		    </li>
 		    <li id="fName">
 		      <label for="name">Full Name:</label>
-		      <input type="text" name="name" id="name" autocomplete="on" placeholder="Your Name" maxlength="50" pattern="[A-Za-z]{1,32}+[.*\S+.*]{2,3}"/>
+		      <input type="text" name="name" id="name" autocomplete="on" placeholder="Your Name" maxlength="50" pattern="[A-Za-z]{1,32}+[.*\S+.*]{2,3}" required />
 		    </li>
 		    <li id="phoneNum">
 		      <label for="phone">Phone Number:</label>
-              <input type="tel" name="phone" id="phone" autocomplete="on" placeholder="000-000-0000" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"/>
+              <input type="tel" name="phone" id="phone" autocomplete="on" placeholder="000-000-0000" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required />
 		    </li>
 		    <li id="verAge">
-		      <input type="checkbox" id="age-verification" name="age-verification" value="18"/>
+		      <input type="checkbox" id="age-verification" name="age-verification" value="18" required />
               <label for="age-verification">I am over 18 years old</label>
             </li>
 	      </ol>

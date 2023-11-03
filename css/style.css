@@ -96,8 +96,15 @@ p {
   align-items:center; 
   height:70vh;
 }
-
-
+#page {
+	margin: 0 3% 0 3%;
+	padding: 2% 2% 2% 2%;
+	border-style:solid;
+	border-color:rgb(255, 153, 51);
+	background-color:#702c30;
+	border-width:5px;
+	
+}
 
 @media (min-width: 768px) {
 #page {

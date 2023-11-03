@@ -117,6 +117,7 @@ p {
   p {
 	width:fit-content;
   }
+}
 @media (min-width: 1024px) {
 #page {
 	width:90%;
@@ -127,3 +128,5 @@ p {
 }
 p {
 	width:fit-content;
+}
+}

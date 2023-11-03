@@ -5,10 +5,10 @@ jQuery(function($) {
 });
 alert("Welcome to the Page! Please read the information below!");
 
-var form =document.getElementById('form');
+var form = document.getElementById('form');
 	  
 function alertFunction() {
 	if (form.checkValidity()) {
-		alert('Thanks for Signing Up! See you at the Elbertsons soon!');
+		alert("Thanks for Signing Up! See you at the Elbertsons soon!");
 	}
 }

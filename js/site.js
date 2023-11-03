@@ -3,7 +3,6 @@ jQuery(function($) {
   $('html').removeClass('nojs');
   $('html').addClass('hasjs');
 });
-alert("Welcome to the Page! Please read the information below!");
 
 var form = document.getElementById('form');
 	  

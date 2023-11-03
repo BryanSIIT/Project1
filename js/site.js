@@ -1,9 +1,14 @@
 // jQuery 3.x-style ready event and locally scoped $
-document.addEventListener('DOMContentLoaded', function () {
-  const form= document.querySelector('form');
+jQuery(function($) {
+  $('html').removeClass('nojs');
+  $('html').addClass('hasjs');
+});
+alert("Welcome to the Page! Please read the information below!");
+
+var form =document.getElementById('form');
 	  
-form.addEventListener('submit' function (event) {
-  event.preventDefault();
-  alert('Thanks for Signing Up! See you at the Elbertsons soon!');
-  });
- });
+function alertFunction() {
+	if (form.checkValidity()) {
+		alert('Thanks for Signing Up! See you at the Elbertsons soon!');
+	}
+}

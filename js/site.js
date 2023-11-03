@@ -2,4 +2,7 @@
 jQuery(function($) {
   $('html').removeClass('nojs');
   $('html').addClass('hasjs');
+  let form= document.querySelector("form");
+  form.addEventListener("submit", () => {
+	  form.classList.add("signed-up");
 });

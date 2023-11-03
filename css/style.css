@@ -91,7 +91,7 @@ p {
   padding: 20px;
   margin: 80px;
   box-shadow: 20px 20px 20px 10px rgb(126, 62, 62);
-  display: flex;
+  display:flex;
   justify-content:center; 
   align-items:center; 
   height:70vh;
@@ -102,23 +102,21 @@ p {
 @media (min-width: 768px) {
 #page {
 	width:90%;
-	height:90%;
 }
   img{
 	width:20%;
 	height:auto;
 }
   p {
-	width: fit-content;
+	width:fit-content;
   }
 @media (min-width: 1024px) {
 #page {
 	width:90%;
-	height:90%;
 }
   img{
 	  width:40%;
 	  height:auto;
 }
 p {
-	width: fit-content;
+	width:fit-content;

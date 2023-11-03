@@ -9,5 +9,5 @@ jQuery(function($) {
   form.addEventListener('submit' function (event) {
 	  event.preventDefault();
 	  alert('Thanks for Signing Up! See you at the Elbertsons soon!');
-
-  }});
+  });
+  });
